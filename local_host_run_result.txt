@@ -1,0 +1,1686 @@
+2024-10-13 18:35:32 2024-10-14 01:35:32.966395: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-13 18:35:33 2024-10-14 01:35:33.087956: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-13 18:35:33 2024-10-14 01:35:33.198496: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-10-13 18:35:33 2024-10-14 01:35:33.280260: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-10-13 18:35:33 2024-10-14 01:35:33.307056: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-13 18:35:33 2024-10-14 01:35:33.485029: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2024-10-13 18:35:33 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-13 18:35:34 2024-10-14 01:35:34.884149: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-10-13 18:35:36 /usr/local/lib/python3.9/site-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+2024-10-13 18:35:36   super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2024-10-13 18:35:37 Epoch 1/10
+2024-10-13 18:35:42 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 21:22 821ms/step - accuracy: 0.1875 - loss: 2.2978
+   8/1563 ━━━━━━━━━━━━━━━━━━━━ 12s 8ms/step - accuracy: 0.1276 - loss: 2.3067    
+  15/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 8ms/step - accuracy: 0.1250 - loss: 2.3046
+  23/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.1208 - loss: 2.3029
+  32/1563 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.1224 - loss: 2.2990
+  41/1563 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.1246 - loss: 2.2947
+  50/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 7ms/step - accuracy: 0.1256 - loss: 2.2903 
+  59/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1270 - loss: 2.2846
+  68/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1298 - loss: 2.2775
+  77/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1330 - loss: 2.2691
+  86/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1366 - loss: 2.2601
+  94/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1397 - loss: 2.2526
+ 103/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1436 - loss: 2.2440
+ 112/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1473 - loss: 2.2356
+ 120/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.1501 - loss: 2.2286
+ 128/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1530 - loss: 2.2215
+ 136/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1557 - loss: 2.2147
+ 145/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1586 - loss: 2.2072
+ 154/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1615 - loss: 2.1996
+ 163/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1643 - loss: 2.1921
+ 172/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1670 - loss: 2.1849
+ 180/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1694 - loss: 2.1787
+ 188/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1718 - loss: 2.1726
+ 197/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1744 - loss: 2.1659
+ 206/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1769 - loss: 2.1594
+ 214/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1790 - loss: 2.1538
+ 223/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1815 - loss: 2.1476
+ 232/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1839 - loss: 2.1415
+ 241/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1862 - loss: 2.1356
+ 250/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1886 - loss: 2.1297
+ 259/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1910 - loss: 2.1239
+ 267/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.1930 - loss: 2.1190
+ 276/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.1952 - loss: 2.1136
+ 285/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.1974 - loss: 2.1084
+ 294/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.1995 - loss: 2.1033
+ 303/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2015 - loss: 2.0983
+ 312/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2035 - loss: 2.0936
+ 321/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2054 - loss: 2.0889
+ 330/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2073 - loss: 2.0844
+ 339/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2091 - loss: 2.0799
+ 347/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2108 - loss: 2.0760
+ 355/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2124 - loss: 2.0721
+ 364/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2142 - loss: 2.0677
+ 373/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2160 - loss: 2.0635
+ 382/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2177 - loss: 2.0593
+ 391/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2194 - loss: 2.0552
+ 400/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2211 - loss: 2.0511
+ 409/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2228 - loss: 2.0471
+ 418/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.2244 - loss: 2.0431
+ 428/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2263 - loss: 2.0387
+ 438/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2281 - loss: 2.0344
+ 447/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2297 - loss: 2.0305
+ 456/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2313 - loss: 2.0267
+ 465/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2329 - loss: 2.0229
+ 474/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2345 - loss: 2.0192
+ 484/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2362 - loss: 2.0151
+ 493/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2377 - loss: 2.0114
+ 502/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2393 - loss: 2.0078
+ 511/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2408 - loss: 2.0042
+ 520/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2422 - loss: 2.0006
+ 529/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2437 - loss: 1.9971
+ 537/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2450 - loss: 1.9941
+ 547/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2465 - loss: 1.9903
+ 557/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.2481 - loss: 1.9866
+ 567/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2496 - loss: 1.9829
+ 577/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2510 - loss: 1.9793
+ 587/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2525 - loss: 1.9757
+ 596/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2538 - loss: 1.9725
+ 605/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2551 - loss: 1.9694
+ 615/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2565 - loss: 1.9659
+ 624/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2578 - loss: 1.9628
+ 633/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2591 - loss: 1.9598
+ 642/1563 ━━━━━━━━━━━━━━━━━━━━ 5s024-10-14T01:35:42.354811145Z [0m 6ms/step - accuracy: 0.2603 - loss: 1.9568
+ 651/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2615 - loss: 1.9537
+ 660/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2627 - loss: 1.9508
+ 669/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2639 - loss: 1.9478
+ 678/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2651 - loss: 1.9449
+ 688/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2664 - loss: 1.9417
+ 698/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2677 - loss: 1.9386
+ 708/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2690 - loss: 1.9355
+ 718/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.2702 - loss: 1.9324
+ 728/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2715 - loss: 1.9294
+ 737/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2726 - loss: 1.9267
+ 746/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2737 - loss: 1.9241
+ 755/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2747 - loss: 1.9214
+ 764/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2758 - loss: 1.9189
+ 773/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2769 - loss: 1.9163
+ 782/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2779 - loss: 1.9139
+ 791/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2789 - loss: 1.9114
+ 799/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2799 - loss: 1.9092
+ 808/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2809 - loss: 1.9068
+ 816/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2818 - loss: 1.9047
+ 825/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2828 - loss: 1.9023
+ 834/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2838 - loss: 1.8999
+ 843/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2848 - loss: 1.8976
+ 852/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2857 - loss: 1.8953
+ 861/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2867 - loss: 1.8930
+ 871/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2878 - loss: 1.8905
+ 880/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.2887 - loss: 1.8882
+ 889/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2896 - loss: 1.8860
+ 898/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2906 - loss: 1.8838
+ 907/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2915 - loss: 1.8816
+ 916/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2924 - loss: 1.8794
+ 926/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2934 - loss: 1.8770
+ 936/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2944 - loss: 1.8747
+ 945/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2953 - loss: 1.8725
+ 955/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2963 - loss: 1.8702
+ 964/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2971 - loss: 1.8682
+ 973/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2980 - loss: 1.8661
+ 982/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2988 - loss: 1.8640
+ 992/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.2998 - loss: 1.8618
+1002/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3007 - loss: 1.8596
+1012/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3016 - loss: 1.8574
+1021/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3025 - loss: 1.8554
+1031/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3034 - loss: 1.8532
+1041/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3043 - loss: 1.8511
+1051/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3051 - loss: 1.8489
+1061/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3060 - loss: 1.8468
+1071/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3069 - loss: 1.8447
+1081/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3078 - loss: 1.8426
+1091/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3086 - loss: 1.8405
+1101/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3095 - loss: 1.8385
+1110/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3103 - loss: 1.8367
+1119/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3110 - loss: 1.8348
+1129/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3119 - loss: 1.8328
+1138/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3126 - loss: 1.8310
+1148/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3134 - loss: 1.8291
+1158/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3142 - loss: 1.8271
+1168/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3151 - loss: 1.8252
+1177/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3158 - loss: 1.8234
+1187/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3166 - loss: 1.8215
+1196/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3173 - loss: 1.8198
+1206/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3181 - loss: 1.8179
+1215/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3188 - loss: 1.8163
+1224/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3195 - loss: 1.8146
+1233/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3202 - loss: 1.8130
+1242/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3209 - loss: 1.8113
+1251/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3215 - loss: 1.8097
+1260/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3222 - loss: 1.8081
+1270/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3230 - loss: 1.8063
+1280/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3237 - loss: 1.8045
+1290/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3245 - loss: 1.8027
+1300/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3252 - loss: 1.8010
+1310/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3259 - loss: 1.7992
+1319/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3266 - loss: 2024-10-14T01:35:42.354811145Z 1.7977
+1328/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3272 - loss: 1.7961
+1337/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3279 - loss: 1.7946
+1346/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3285 - loss: 1.7930
+1355/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3291 - loss: 1.7915
+1364/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3298 - loss: 1.7900
+1373/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3304 - loss: 1.7885
+1382/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.3310 - loss: 1.7870
+1391/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3317 - loss: 1.7855
+1400/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3323 - loss: 1.7840
+1410/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3330 - loss: 1.7824
+1420/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3336 - loss: 1.7808
+1430/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3343 - loss: 1.7792
+1440/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3350 - loss: 1.7776
+1449/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3356 - loss: 1.7762
+1459/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3362 - loss: 1.7746
+1469/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3369 - loss: 1.7731
+1478/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3375 - loss: 1.7717
+1488/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3381 - loss: 1.7701
+1497/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3387 - loss: 1.7687
+1507/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3393 - loss: 1.7672
+1517/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3400 - loss: 1.7656
+1527/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3406 - loss: 1.7641
+1537/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3412 - loss: 1.7626
+1546/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3418 - loss: 1.7613
+1555/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.3424 - loss: 1.7599
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - accuracy: 0.3429 - loss: 1.7586 - val_accuracy: 0.5460 - val_loss: 1.2647
+2024-10-13 18:35:48 Epoch 2/10
+2024-10-13 18:35:52 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 30s 19ms/step - accuracy: 0.4375 - loss: 1.4604
+  10/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5536 - loss: 1.1842  
+  19/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5589 - loss: 1.1964
+  29/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5611 - loss: 1.2095
+  38/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5620 - loss: 1.2172
+  47/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5617 - loss: 1.2226
+  56/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5620 - loss: 1.2258
+  66/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5623 - loss: 1.2294
+  76/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5624 - loss: 1.2328
+  85/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5621 - loss: 1.2359
+  95/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5610 - loss: 1.2395
+ 104/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5603 - loss: 1.2421
+ 113/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5598 - loss: 1.2439
+ 123/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.5594 - loss: 1.2457
+ 133/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5590 - loss: 1.2476
+ 143/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5586 - loss: 1.2491
+ 152/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5585 - loss: 1.2499
+ 161/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5583 - loss: 1.2508
+ 171/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5581 - loss: 1.2517
+ 181/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5580 - loss: 1.2524
+ 191/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5577 - loss: 1.2531
+ 200/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5575 - loss: 1.2537
+ 209/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5573 - loss: 1.2544
+ 219/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5571 - loss: 1.2549
+ 228/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5568 - loss: 1.2554
+ 238/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5566 - loss: 1.2559
+ 248/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5565 - loss: 1.2562
+ 258/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5564 - loss: 1.2563
+ 268/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5563 - loss: 1.2564
+ 278/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5563 - loss: 1.2563
+ 288/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.5563 - loss: 1.2562
+ 298/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5564 - loss: 1.2560
+ 308/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5564 - loss: 1.2557
+ 318/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5565 - loss: 1.2553
+ 328/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5566 - loss: 1.2550
+ 338/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5566 - loss: 1.2547
+ 348/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5567 - loss: 1.2544
+ 358/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5568 - loss: 1.2541
+ 367/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5569 - loss: 1.2538
+ 376/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5570 - loss: 1.2535
+ 386/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5572 - loss: 1.2531
+ 395/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5573 - loss: 1.2527
+ 404/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5574 - loss: 1.2524
+ 414/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5575 - loss: 1.2520
+ 423/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5576 - loss: 1.2517
+ 433/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.5577 - loss: 1.2512
+ 442/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5579 - loss: 1.2508
+ 451/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5580 - loss: 1.2504
+ 460/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5581 - loss: 1.2500
+ 469/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5582 - loss: 1.2497
+ 478/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.5583 - loss: 1.2493
+ 487/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5584 - loss: 1.2490
+ 496/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5585 - loss: 1.2487
+ 505/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5586 - loss: 1.2483
+ 514/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5587 - loss: 1.2479
+ 524/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5588 - loss: 1.2476
+ 533/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5589 - loss: 1.2473
+ 542/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5589 - loss: 1.2471
+ 551/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5590 - loss: 1.2468
+ 561/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5591 - loss: 1.2466
+ 571/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5591 - loss: 1.2463
+ 580/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5592 - loss: 1.2461
+ 589/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5593 - loss: 1.2459
+ 599/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5594 - loss: 1.2456
+ 608/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5595 - loss: 1.2453
+ 617/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5596 - loss: 1.2450
+ 627/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5597 - loss: 1.2446
+ 636/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5598 - loss: 1.2443
+ 646/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5599 - loss: 1.2440
+ 656/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.5601 - loss: 1.2436
+ 666/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5602 - loss: 1.2433
+ 675/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5603 - loss: 1.2430
+ 685/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/st2024-10-14T01:35:52.288845626Z ep - accuracy: 0.5604 - loss: 1.2426
+ 695/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5605 - loss: 1.2423
+ 705/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5606 - loss: 1.2420
+ 715/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5607 - loss: 1.2416
+ 725/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5608 - loss: 1.2413
+ 735/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5609 - loss: 1.2410
+ 745/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5610 - loss: 1.2406
+ 755/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5612 - loss: 1.2403
+ 765/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5613 - loss: 1.2399
+ 776/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5614 - loss: 1.2395
+ 785/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5615 - loss: 1.2392
+ 796/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.5616 - loss: 1.2388
+ 806/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.5617 - loss: 1.2385
+ 816/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.5618 - loss: 1.2381
+ 826/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.5619 - loss: 1.2378
+ 836/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5620 - loss: 1.2374
+ 846/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5622 - loss: 1.2371
+ 856/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5623 - loss: 1.2367
+ 866/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5624 - loss: 1.2364
+ 875/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5625 - loss: 1.2361
+ 884/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5626 - loss: 1.2357
+ 894/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5627 - loss: 1.2354
+ 903/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5628 - loss: 1.2351
+ 913/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5629 - loss: 1.2348
+ 923/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5630 - loss: 1.2345
+ 933/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5631 - loss: 1.2341
+ 942/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5632 - loss: 1.2338
+ 951/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5633 - loss: 1.2335
+ 961/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5634 - loss: 1.2332
+ 970/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5635 - loss: 1.2329
+ 980/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5636 - loss: 1.2326
+ 990/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5638 - loss: 1.2323
+1000/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5639 - loss: 1.2319
+1009/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.5640 - loss: 1.2317
+1019/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5641 - loss: 1.2314
+1028/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5642 - loss: 1.2311
+1037/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5642 - loss: 1.2308
+1047/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5644 - loss: 1.2305
+1056/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5644 - loss: 1.2303
+1066/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5646 - loss: 1.2300
+1076/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5647 - loss: 1.2296
+1085/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5648 - loss: 1.2294
+1095/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5649 - loss: 1.2290
+1105/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5650 - loss: 1.2287
+1114/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5651 - loss: 1.2284
+1123/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5652 - loss: 1.2281
+1132/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5653 - loss: 1.2278
+1141/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5654 - loss: 1.2275
+1151/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5655 - loss: 1.2272
+1160/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5656 - loss: 1.2269
+1170/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5657 - loss: 1.2266
+1180/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5658 - loss: 1.2262
+1190/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.5659 - loss: 1.2259
+1200/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5661 - loss: 1.2256
+1210/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5662 - loss: 1.2253
+1219/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5663 - loss: 1.2250
+1228/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5664 - loss: 1.2247
+1237/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5664 - loss: 1.2245
+1247/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5665 - loss: 1.2241
+1256/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5666 - loss: 1.2239
+1265/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5667 - loss: 1.2236
+1274/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5668 - loss: 1.2233
+1283/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5669 - loss: 1.2231
+1292/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5670 - loss: 1.2228
+1301/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5671 - loss: 1.2225
+1311/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5672 - loss: 1.2222
+1320/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5673 - loss: 1.2220
+1330/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5674 - loss: 1.2217
+1339/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5675 - loss: 1.2214
+1349/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5676 - loss: 1.2211
+1358/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.5677 - loss: 1.2209
+1367/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.5678 - loss: 1.2206
+1377/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.5679 - loss: 1.2024-10-14T01:35:52.288845626Z 
+1387/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5680 - loss: 1.2200
+1396/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5681 - loss: 1.2198
+1405/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5682 - loss: 1.2195
+1414/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5682 - loss: 1.2192
+1423/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5683 - loss: 1.2190
+1432/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5684 - loss: 1.2187
+1441/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5685 - loss: 1.2185
+1450/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5686 - loss: 1.2182
+1459/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5687 - loss: 1.2179
+1468/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5688 - loss: 1.2177
+1477/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5689 - loss: 1.2174
+1486/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5690 - loss: 1.2172
+1496/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5691 - loss: 1.2169
+1506/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5692 - loss: 1.2166
+1516/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5693 - loss: 1.2163
+1526/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5694 - loss: 1.2160
+1536/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5695 - loss: 1.2157
+1539/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5695 - loss: 1.2157
+1549/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5696 - loss: 1.2154
+1559/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5697 - loss: 1.2151
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.5698 - loss: 1.2150 - val_accuracy: 0.6178 - val_loss: 1.0860
+2024-10-13 18:35:57 Epoch 3/10
+2024-10-13 18:36:01 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 29s 19ms/step - accuracy: 0.6250 - loss: 1.0773
+  12/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6441 - loss: 1.0426  
+  22/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.6425 - loss: 1.0476
+  31/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.6423 - loss: 1.0480
+  40/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6423 - loss: 1.0468
+  49/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6419 - loss: 1.0458
+  58/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6413 - loss: 1.0457
+  68/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6402 - loss: 1.0461
+  77/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6389 - loss: 1.0463
+  86/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6377 - loss: 1.0465
+  96/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6367 - loss: 1.0464
+ 106/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6360 - loss: 1.0461
+ 116/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6354 - loss: 1.0455
+ 126/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6351 - loss: 1.0451
+ 135/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6348 - loss: 1.0451
+ 144/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6344 - loss: 1.0456
+ 153/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6341 - loss: 1.0459
+ 163/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6338 - loss: 1.0462
+ 173/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6335 - loss: 1.0466
+ 183/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6333 - loss: 1.0468
+ 192/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6331 - loss: 1.0471
+ 201/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6328 - loss: 1.0475
+ 210/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6326 - loss: 1.0479
+ 219/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6324 - loss: 1.0481
+ 229/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6322 - loss: 1.0483
+ 238/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6320 - loss: 1.0485
+ 248/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6319 - loss: 1.0488
+ 257/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6318 - loss: 1.0489
+ 267/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6318 - loss: 1.0490
+ 277/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6318 - loss: 1.0490
+ 287/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6318 - loss: 1.0490
+ 297/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6318 - loss: 1.0490
+ 307/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0491
+ 317/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0491
+ 327/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0491
+ 336/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0491
+ 345/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0492
+ 354/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0493
+ 363/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0494
+ 371/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0494
+ 378/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0496
+ 386/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0497
+ 395/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0498
+ 404/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0499
+ 412/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0500
+ 420/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0500
+ 429/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0501
+ 438/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0502
+ 447/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0503
+ 456/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0504
+ 465/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0504
+ 474/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0505
+ 483/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6317 - loss: 1.0505
+ 492/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0505
+ 501/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0506
+ 510/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6318 - loss: 1.0506
+ 519/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6318 - loss: 1.0506
+ 528/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6319 - loss: 1.0506
+ 538/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6319 - loss: 1.0506
+ 547/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6319 - loss: 1.0506
+ 557/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6320 - loss: 1.0506
+ 567/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6320 - loss: 1.0506
+ 577/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6320 - loss: 1.0505
+ 586/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6321 - loss: 1.0505
+ 595/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6321 - loss: 1.0504
+ 604/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6322 - loss: 1.0503
+ 613/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6322 - loss: 1.0503
+ 623/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6322 - loss: 1.0502
+ 632/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6323 - loss: 1.0501
+ 642/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6323 - loss: 1.0500
+ 652/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6324 - loss: 1.0498
+ 662/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6324 - loss: 1.0497
+ 671/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/st2024-10-14T01:36:01.730784715Z ep - accuracy: 0.6325 - loss: 1.0496
+ 681/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6325 - loss: 1.0495
+ 691/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6326 - loss: 1.0493
+ 701/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6326 - loss: 1.0492
+ 711/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6327 - loss: 1.0491
+ 721/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6327 - loss: 1.0489
+ 731/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6328 - loss: 1.0488
+ 741/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6328 - loss: 1.0486
+ 751/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6329 - loss: 1.0485
+ 761/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6329 - loss: 1.0483
+ 771/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6330 - loss: 1.0482
+ 781/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6330 - loss: 1.0480
+ 791/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6331 - loss: 1.0479
+ 801/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6331 - loss: 1.0477
+ 811/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6332 - loss: 1.0475
+ 821/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6332 - loss: 1.0474
+ 831/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6333 - loss: 1.0472
+ 841/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6334 - loss: 1.0470
+ 851/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6334 - loss: 1.0469
+ 861/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6335 - loss: 1.0467
+ 871/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6335 - loss: 1.0465
+ 880/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6335 - loss: 1.0464
+ 889/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6336 - loss: 1.0462
+ 898/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6336 - loss: 1.0461
+ 907/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6337 - loss: 1.0459
+ 916/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6337 - loss: 1.0458
+ 926/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6338 - loss: 1.0456
+ 936/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6338 - loss: 1.0455
+ 945/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6339 - loss: 1.0453
+ 954/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6339 - loss: 1.0452
+ 963/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6339 - loss: 1.0451
+ 973/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6340 - loss: 1.0450
+ 982/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6340 - loss: 1.0448
+ 992/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6340 - loss: 1.0447
+1001/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6341 - loss: 1.0446
+1010/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6341 - loss: 1.0445
+1020/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6342 - loss: 1.0444
+1029/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6342 - loss: 1.0442
+1038/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6342 - loss: 1.0441
+1047/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6343 - loss: 1.0440
+1056/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6343 - loss: 1.0439
+1064/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6343 - loss: 1.0438
+1073/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6344 - loss: 1.0437
+1082/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6344 - loss: 1.0436
+1091/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6345 - loss: 1.0435
+1100/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6345 - loss: 1.0433
+1109/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6345 - loss: 1.0432
+1118/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6346 - loss: 1.0431
+1127/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6346 - loss: 1.0430
+1136/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6346 - loss: 1.0429
+1145/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6347 - loss: 1.0428
+1154/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6347 - loss: 1.0427
+1163/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6347 - loss: 1.0426
+1172/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6348 - loss: 1.0424
+1181/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6348 - loss: 1.0423
+1190/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6349 - loss: 1.0422
+1199/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6349 - loss: 1.0421
+1209/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6350 - loss: 1.0420
+1218/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6350 - loss: 1.0419
+1227/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6350 - loss: 1.0418
+1235/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6351 - loss: 1.0417
+1244/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6351 - loss: 1.0416
+1253/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6351 - loss: 1.0415
+1262/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6352 - loss: 1.0414
+1271/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6352 - loss: 1.0413
+1280/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6353 - loss: 1.0412
+1289/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6353 - loss: 1.0411
+1298/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6353 - loss: 1.0410
+1308/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6354 - loss: 1.0409
+1318/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6354 - loss: 1.0407
+1327/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6355 - loss: 1.0406
+1336/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6355 - loss: 1.0405
+1345/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6356 - loss: 1.2024-10-14T01:36:01.730784715Z 
+1354/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6356 - loss: 1.0403
+1363/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6356 - loss: 1.0402
+1372/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6357 - loss: 1.0401
+1380/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6357 - loss: 1.0400
+1389/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6358 - loss: 1.0399
+1398/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6358 - loss: 1.0398
+1407/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6358 - loss: 1.0397
+1416/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6359 - loss: 1.0396
+1426/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6359 - loss: 1.0395
+1435/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6359 - loss: 1.0394
+1445/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6360 - loss: 1.0393
+1454/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6360 - loss: 1.0392
+1463/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6361 - loss: 1.0391
+1472/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6361 - loss: 1.0390
+1481/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6361 - loss: 1.0389
+1490/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6362 - loss: 1.0389
+1499/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6362 - loss: 1.0388
+1508/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6362 - loss: 1.0387
+1518/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6363 - loss: 1.0386
+1527/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6363 - loss: 1.0385
+1537/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6363 - loss: 1.0384
+1546/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6364 - loss: 1.0383
+1556/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.6364 - loss: 1.0382
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 10s 6ms/step - accuracy: 0.6364 - loss: 1.0381 - val_accuracy: 0.6513 - val_loss: 0.9890
+2024-10-13 18:36:07 Epoch 4/10
+2024-10-13 18:36:11 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 29s 19ms/step - accuracy: 0.7188 - loss: 0.9454
+  10/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6732 - loss: 0.8952  
+  19/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6754 - loss: 0.8979
+  28/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6752 - loss: 0.9016
+  38/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6752 - loss: 0.9055
+  47/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6748 - loss: 0.9092
+  57/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6756 - loss: 0.9096
+  66/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6760 - loss: 0.9096
+  75/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6755 - loss: 0.9121
+  85/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6749 - loss: 0.9151
+  94/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6744 - loss: 0.9168
+ 104/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6740 - loss: 0.9180
+ 114/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6735 - loss: 0.9191
+ 124/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.6731 - loss: 0.9204
+ 134/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6725 - loss: 0.9219
+ 144/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6720 - loss: 0.9234
+ 154/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6715 - loss: 0.9247
+ 163/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6712 - loss: 0.9256
+ 173/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6708 - loss: 0.9264
+ 183/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6703 - loss: 0.9274
+ 193/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6700 - loss: 0.9282
+ 203/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6698 - loss: 0.9286
+ 213/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6696 - loss: 0.9291
+ 223/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6694 - loss: 0.9296
+ 232/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6694 - loss: 0.9298
+ 242/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6693 - loss: 0.9301
+ 252/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6694 - loss: 0.9302
+ 262/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6694 - loss: 0.9303
+ 271/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6695 - loss: 0.9304
+ 280/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6696 - loss: 0.9304
+ 290/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.6697 - loss: 0.9304
+ 300/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6699 - loss: 0.9303
+ 310/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6700 - loss: 0.9302
+ 319/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6701 - loss: 0.9300
+ 329/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6703 - loss: 0.9298
+ 339/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6705 - loss: 0.9296
+ 349/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6706 - loss: 0.9295
+ 359/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.6707 - loss: 0.9294
+ 369/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6708 - loss: 0.9294
+ 379/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6709 - loss: 0.9294
+ 389/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6710 - loss: 0.9294
+ 399/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6711 - loss: 0.9295
+ 409/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6712 - loss: 0.9294
+ 419/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6712 - loss: 0.9295
+ 429/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6713 - loss: 0.9296
+ 438/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6714 - loss: 0.9297
+ 447/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6714 - loss: 0.9298
+ 456/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6715 - loss: 0.9299
+ 465/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6715 - loss: 0.9300
+ 474/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6716 - loss: 0.9301
+ 483/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6717 - loss: 0.9301
+ 493/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6717 - loss: 0.9302
+ 503/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6718 - loss: 0.9304
+ 513/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6718 - loss: 0.9305
+ 523/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6719 - loss: 0.9306
+ 533/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6719 - loss: 0.9307
+ 543/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6720 - loss: 0.9307
+ 553/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6720 - loss: 0.9308
+ 563/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6721 - loss: 0.9309
+ 573/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6721 - loss: 0.9310
+ 582/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6722 - loss: 0.9311
+ 591/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6722 - loss: 0.9312
+ 601/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6722 - loss: 0.9313
+ 611/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6722 - loss: 0.9315
+ 620/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6723 - loss: 0.9316
+ 630/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6723 - loss: 0.9317
+ 640/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6723 - loss: 0.9318
+ 649/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6723 - loss: 0.9319
+ 659/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6723 - loss: 0.9320
+ 669/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9321
+ 679/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9322
+ 689/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9323
+ 699/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/st2024-10-14T01:36:11.322454018Z ep - accuracy: 0.6724 - loss: 0.9324
+ 708/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9325
+ 718/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9325
+ 728/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9326
+ 736/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6724 - loss: 0.9326
+ 745/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9327
+ 754/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9327
+ 764/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9327
+ 774/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9328
+ 784/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9328
+ 794/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9328
+ 804/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6725 - loss: 0.9329
+ 813/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 822/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 832/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 841/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 850/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 859/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6726 - loss: 0.9329
+ 868/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6727 - loss: 0.9329
+ 877/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6727 - loss: 0.9329
+ 887/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.6727 - loss: 0.9328
+ 897/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6727 - loss: 0.9328
+ 907/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6728 - loss: 0.9328
+ 916/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6728 - loss: 0.9328
+ 926/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6728 - loss: 0.9327
+ 936/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6728 - loss: 0.9327
+ 946/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6729 - loss: 0.9327
+ 956/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6729 - loss: 0.9327
+ 965/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6729 - loss: 0.9327
+ 975/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6729 - loss: 0.9327
+ 985/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6730 - loss: 0.9326
+ 995/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6730 - loss: 0.9326
+1005/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6730 - loss: 0.9326
+1015/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6730 - loss: 0.9325
+1024/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6730 - loss: 0.9325
+1034/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6731 - loss: 0.9325
+1043/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6731 - loss: 0.9324
+1053/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6731 - loss: 0.9324
+1063/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6731 - loss: 0.9324
+1072/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6732 - loss: 0.9323
+1082/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6732 - loss: 0.9323
+1092/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6732 - loss: 0.9322
+1102/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6732 - loss: 0.9322
+1111/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6733 - loss: 0.9322
+1121/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6733 - loss: 0.9321
+1129/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6733 - loss: 0.9321
+1138/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6733 - loss: 0.9321
+1148/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6734 - loss: 0.9320
+1158/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6734 - loss: 0.9320
+1168/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6734 - loss: 0.9320
+1178/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6734 - loss: 0.9319
+1187/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6734 - loss: 0.9319
+1196/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.6735 - loss: 0.9319
+1206/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6735 - loss: 0.9319
+1216/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6735 - loss: 0.9318
+1225/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6735 - loss: 0.9318
+1235/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6735 - loss: 0.9318
+1245/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6736 - loss: 0.9317
+1254/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6736 - loss: 0.9317
+1264/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6736 - loss: 0.9317
+1274/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6736 - loss: 0.9316
+1284/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6737 - loss: 0.9316
+1294/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6737 - loss: 0.9315
+1304/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6737 - loss: 0.9315
+1314/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6737 - loss: 0.9314
+1324/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6737 - loss: 0.9314
+1334/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6738 - loss: 0.9313
+1344/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6738 - loss: 0.9313
+1354/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6738 - loss: 0.9313
+1364/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6738 - loss: 0.9312
+1374/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6739 - loss: 0.9312
+1384/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6739 - loss: 0.9311
+1394/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6739 - loss: 0.2024-10-14T01:36:11.322454018Z 
+1404/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6739 - loss: 0.9310
+1414/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6740 - loss: 0.9310
+1423/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6740 - loss: 0.9309
+1432/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6740 - loss: 0.9309
+1440/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6740 - loss: 0.9308
+1449/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6740 - loss: 0.9308
+1459/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6741 - loss: 0.9307
+1469/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6741 - loss: 0.9306
+1479/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6741 - loss: 0.9306
+1489/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6741 - loss: 0.9305
+1499/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6742 - loss: 0.9305
+1508/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6742 - loss: 0.9304
+1518/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6742 - loss: 0.9303
+1527/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6742 - loss: 0.9303
+1536/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6742 - loss: 0.9303
+1546/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6743 - loss: 0.9302
+1556/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6743 - loss: 0.9302
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.6743 - loss: 0.9301 - val_accuracy: 0.6601 - val_loss: 0.9857
+2024-10-13 18:36:16 Epoch 5/10
+2024-10-13 18:36:20 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 27s 17ms/step - accuracy: 0.5312 - loss: 1.2348
+  11/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6356 - loss: 1.0644  
+  22/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6534 - loss: 1.0220
+  33/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6629 - loss: 0.9902
+  43/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6672 - loss: 0.9744
+  53/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6700 - loss: 0.9633
+  64/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6724 - loss: 0.9537
+  74/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6740 - loss: 0.9457
+  84/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6755 - loss: 0.9386
+  94/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6769 - loss: 0.9323
+ 104/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6780 - loss: 0.9267
+ 114/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6786 - loss: 0.9221
+ 124/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6790 - loss: 0.9185
+ 134/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6795 - loss: 0.9153
+ 144/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6800 - loss: 0.9127
+ 154/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6805 - loss: 0.9102
+ 164/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6809 - loss: 0.9079
+ 174/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6815 - loss: 0.9052
+ 185/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6822 - loss: 0.9023
+ 195/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.6829 - loss: 0.8998
+ 205/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6835 - loss: 0.8976
+ 215/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6840 - loss: 0.8956
+ 225/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6845 - loss: 0.8937
+ 235/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6850 - loss: 0.8920
+ 244/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6854 - loss: 0.8904
+ 253/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6859 - loss: 0.8889
+ 262/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6863 - loss: 0.8875
+ 271/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6867 - loss: 0.8862
+ 279/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6870 - loss: 0.8851
+ 288/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6873 - loss: 0.8840
+ 297/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6877 - loss: 0.8830
+ 306/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6879 - loss: 0.8820
+ 316/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6882 - loss: 0.8810
+ 325/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6885 - loss: 0.8802
+ 335/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6888 - loss: 0.8792
+ 345/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6891 - loss: 0.8783
+ 354/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6893 - loss: 0.8774
+ 363/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6896 - loss: 0.8766
+ 373/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6899 - loss: 0.8757
+ 383/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6901 - loss: 0.8749
+ 393/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6904 - loss: 0.8743
+ 403/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6906 - loss: 0.8736
+ 411/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6907 - loss: 0.8731
+ 420/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6909 - loss: 0.8726
+ 429/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6911 - loss: 0.8721
+ 439/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6913 - loss: 0.8715
+ 448/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6915 - loss: 0.8711
+ 457/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.6917 - loss: 0.8706
+ 466/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6919 - loss: 0.8701
+ 476/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6921 - loss: 0.8697
+ 486/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6922 - loss: 0.8692
+ 496/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6924 - loss: 0.8688
+ 505/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6926 - loss: 0.8684
+ 514/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6927 - loss: 0.8681
+ 524/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6929 - loss: 0.8678
+ 532/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6930 - loss: 0.8675
+ 542/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6931 - loss: 0.8672
+ 553/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6933 - loss: 0.8669
+ 562/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6934 - loss: 0.8667
+ 572/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6935 - loss: 0.8664
+ 582/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6937 - loss: 0.8661
+ 592/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6938 - loss: 0.8659
+ 602/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6939 - loss: 0.8657
+ 613/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6940 - loss: 0.8655
+ 624/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6941 - loss: 0.8653
+ 634/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.6941 - loss: 0.8651
+ 644/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6942 - loss: 0.8650
+ 655/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6943 - loss: 0.8648
+ 665/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6944 - loss: 0.8647
+ 676/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6944 - loss: 0.8645
+ 686/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6945 - loss: 0.8644
+ 697/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6946 - loss: 0.8642
+ 708/1563 ━━━━━━━━━━━━━━━━━━━━ 4s01:36:20.579554637Z 0m 5ms/step - accuracy: 0.6947 - loss: 0.8641
+ 719/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6948 - loss: 0.8639
+ 730/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6948 - loss: 0.8638
+ 740/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6949 - loss: 0.8636
+ 749/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6950 - loss: 0.8635
+ 759/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6950 - loss: 0.8633
+ 769/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6951 - loss: 0.8632
+ 779/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6952 - loss: 0.8630
+ 789/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6952 - loss: 0.8629
+ 799/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6953 - loss: 0.8628
+ 810/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6953 - loss: 0.8626
+ 820/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6954 - loss: 0.8625
+ 830/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6954 - loss: 0.8624
+ 840/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6955 - loss: 0.8622
+ 850/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6955 - loss: 0.8621
+ 861/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6956 - loss: 0.8620
+ 871/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6956 - loss: 0.8619
+ 881/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6956 - loss: 0.8618
+ 892/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6957 - loss: 0.8617
+ 902/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6957 - loss: 0.8616
+ 912/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6958 - loss: 0.8615
+ 922/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6958 - loss: 0.8614
+ 932/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6958 - loss: 0.8613
+ 943/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6959 - loss: 0.8612
+ 954/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6959 - loss: 0.8611
+ 965/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6959 - loss: 0.8610
+ 975/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6960 - loss: 0.8610
+ 986/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6960 - loss: 0.8609
+ 996/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.6961 - loss: 0.8608
+1006/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6961 - loss: 0.8607
+1016/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6961 - loss: 0.8606
+1026/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6961 - loss: 0.8605
+1036/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6962 - loss: 0.8605
+1046/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6962 - loss: 0.8604
+1057/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6962 - loss: 0.8603
+1067/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6963 - loss: 0.8603
+1077/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6963 - loss: 0.8602
+1087/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6963 - loss: 0.8601
+1096/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6963 - loss: 0.8601
+1106/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6963 - loss: 0.8600
+1116/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8599
+1125/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8599
+1134/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8599
+1143/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8598
+1153/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8598
+1163/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6964 - loss: 0.8597
+1173/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6965 - loss: 0.8597
+1183/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.6965 - loss: 0.8597
+1193/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8597
+1203/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8596
+1213/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8596
+1223/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8596
+1232/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8596
+1241/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8596
+1251/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8595
+1261/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8595
+1271/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6965 - loss: 0.8595
+1281/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8595
+1290/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8595
+1300/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8594
+1310/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8594
+1319/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8594
+1328/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8594
+1338/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8594
+1348/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8593
+1358/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8593
+1368/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6966 - loss: 0.8593
+1377/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8593
+1387/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8593
+1397/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8592
+1405/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8592
+1414/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8592
+1423/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 02024-10-14T01:36:20.579554637Z .8592
+1431/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8592
+1439/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8591
+1448/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8591
+1457/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6967 - loss: 0.8591
+1466/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8591
+1476/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8590
+1486/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8590
+1496/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8590
+1507/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8589
+1517/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6968 - loss: 0.8589
+1527/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6969 - loss: 0.8588
+1537/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6969 - loss: 0.8588
+1547/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6969 - loss: 0.8587
+1556/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6969 - loss: 0.8587
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.6969 - loss: 0.8587 - val_accuracy: 0.6761 - val_loss: 0.9353
+2024-10-13 18:36:25 Epoch 6/10
+2024-10-13 18:36:29 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 26s 17ms/step - accuracy: 0.8750 - loss: 0.5800
+  11/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7728 - loss: 0.7055  
+  21/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7530 - loss: 0.7414
+  30/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7448 - loss: 0.7544
+  40/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7399 - loss: 0.7603
+  49/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7378 - loss: 0.7623
+  59/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7365 - loss: 0.7633
+  68/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7352 - loss: 0.7644
+  78/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7337 - loss: 0.7660
+  88/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7329 - loss: 0.7663
+  98/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7323 - loss: 0.7662
+ 108/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7316 - loss: 0.7665
+ 117/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7314 - loss: 0.7665
+ 127/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7313 - loss: 0.7663
+ 136/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7311 - loss: 0.7666
+ 146/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7309 - loss: 0.7671
+ 156/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7307 - loss: 0.7675
+ 166/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7305 - loss: 0.7680
+ 175/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7304 - loss: 0.7684
+ 185/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7301 - loss: 0.7690
+ 194/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7299 - loss: 0.7697
+ 203/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7296 - loss: 0.7705
+ 213/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7294 - loss: 0.7712
+ 222/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7291 - loss: 0.7719
+ 225/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7290 - loss: 0.7722
+ 234/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7288 - loss: 0.7731
+ 243/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7285 - loss: 0.7738
+ 252/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7284 - loss: 0.7743
+ 262/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7282 - loss: 0.7748
+ 272/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7280 - loss: 0.7753
+ 282/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7279 - loss: 0.7757
+ 292/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7278 - loss: 0.7762
+ 302/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7277 - loss: 0.7767
+ 312/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7276 - loss: 0.7770
+ 322/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7275 - loss: 0.7773
+ 332/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7274 - loss: 0.7776
+ 341/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7273 - loss: 0.7779
+ 351/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7273 - loss: 0.7781
+ 361/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7271 - loss: 0.7785
+ 371/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7270 - loss: 0.7788
+ 380/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7269 - loss: 0.7791
+ 389/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7268 - loss: 0.7794
+ 398/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7267 - loss: 0.7796
+ 407/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7266 - loss: 0.7798
+ 417/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7266 - loss: 0.7800
+ 426/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7265 - loss: 0.7802
+ 435/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7264 - loss: 0.7804
+ 445/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7264 - loss: 0.7805
+ 455/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7263 - loss: 0.7807
+ 464/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7262 - loss: 0.7808
+ 474/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7261 - loss: 0.7809
+ 483/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7261 - loss: 0.7810
+ 493/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7260 - loss: 0.7811
+ 503/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7260 - loss: 0.7812
+ 512/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7260 - loss: 0.7812
+ 522/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7259 - loss: 0.7813
+ 532/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7259 - loss: 0.7813
+ 542/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7259 - loss: 0.7814
+ 552/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7259 - loss: 0.7814
+ 562/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7258 - loss: 0.7816
+ 572/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7258 - loss: 0.7817
+ 582/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7257 - loss: 0.7819
+ 592/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7256 - loss: 0.7821
+ 602/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7256 - loss: 0.7822
+ 612/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7255 - loss: 0.7824
+ 622/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7255 - loss: 0.7826
+ 632/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7254 - loss: 0.7827
+ 642/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7254 - loss: 0.7829
+ 652/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7253 - loss: 0.7830
+ 662/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7253 - loss: 0.7832
+ 672/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7252 - loss: 0.7834
+ 682/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7251 - loss: 0.7835
+ 691/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/st2024-10-14T01:36:29.733623998Z ep - accuracy: 0.7251 - loss: 0.7836
+ 700/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7250 - loss: 0.7838
+ 710/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7250 - loss: 0.7839
+ 720/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7249 - loss: 0.7841
+ 729/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7248 - loss: 0.7842
+ 739/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7248 - loss: 0.7844
+ 749/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7247 - loss: 0.7845
+ 759/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7246 - loss: 0.7847
+ 768/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7246 - loss: 0.7848
+ 778/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7245 - loss: 0.7850
+ 787/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7245 - loss: 0.7851
+ 796/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7244 - loss: 0.7852
+ 805/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7244 - loss: 0.7854
+ 814/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7243 - loss: 0.7855
+ 824/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7243 - loss: 0.7856
+ 834/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7242 - loss: 0.7857
+ 844/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7242 - loss: 0.7858
+ 854/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7242 - loss: 0.7859
+ 863/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7241 - loss: 0.7861
+ 872/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7241 - loss: 0.7862
+ 882/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7240 - loss: 0.7863
+ 892/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7240 - loss: 0.7864
+ 902/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7239 - loss: 0.7865
+ 912/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7239 - loss: 0.7867
+ 921/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7239 - loss: 0.7868
+ 930/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7238 - loss: 0.7869
+ 940/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7238 - loss: 0.7870
+ 950/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7237 - loss: 0.7871
+ 959/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7237 - loss: 0.7872
+ 968/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7237 - loss: 0.7873
+ 977/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7236 - loss: 0.7874
+ 987/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7236 - loss: 0.7875
+ 997/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7236 - loss: 0.7876
+1007/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7235 - loss: 0.7877
+1017/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7235 - loss: 0.7878
+1026/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7235 - loss: 0.7879
+1035/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7234 - loss: 0.7880
+1044/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7234 - loss: 0.7881
+1053/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7234 - loss: 0.7882
+1062/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7233 - loss: 0.7883
+1072/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7233 - loss: 0.7883
+1081/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7233 - loss: 0.7884
+1090/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7232 - loss: 0.7885
+1100/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7232 - loss: 0.7886
+1110/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7232 - loss: 0.7887
+1120/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7231 - loss: 0.7887
+1130/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7231 - loss: 0.7888
+1139/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7231 - loss: 0.7889
+1149/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7230 - loss: 0.7890
+1158/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7230 - loss: 0.7891
+1168/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7230 - loss: 0.7892
+1177/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7229 - loss: 0.7892
+1185/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7229 - loss: 0.7893
+1195/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7229 - loss: 0.7894
+1205/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7229 - loss: 0.7894
+1215/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7228 - loss: 0.7895
+1224/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7228 - loss: 0.7896
+1233/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7228 - loss: 0.7896
+1243/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7228 - loss: 0.7897
+1253/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7227 - loss: 0.7897
+1263/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7227 - loss: 0.7898
+1273/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7227 - loss: 0.7899
+1283/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7227 - loss: 0.7899
+1293/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7227 - loss: 0.7900
+1303/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7226 - loss: 0.7901
+1312/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7226 - loss: 0.7901
+1322/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7226 - loss: 0.7902
+1332/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7226 - loss: 0.7902
+1342/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7225 - loss: 0.7903
+1352/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7225 - loss: 0.7904
+1362/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7225 - loss: 0.7904
+1372/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7225 - loss: 0.7905
+1382/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7224 - loss: 0.2024-10-14T01:36:29.733623998Z 
+1391/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7224 - loss: 0.7906
+1401/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7224 - loss: 0.7907
+1411/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7224 - loss: 0.7908
+1420/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7224 - loss: 0.7908
+1430/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7223 - loss: 0.7909
+1440/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7223 - loss: 0.7909
+1450/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7223 - loss: 0.7910
+1460/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7223 - loss: 0.7911
+1470/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7222 - loss: 0.7912
+1480/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7222 - loss: 0.7912
+1489/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7222 - loss: 0.7913
+1498/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7221 - loss: 0.7914
+1507/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7221 - loss: 0.7914
+1517/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7221 - loss: 0.7915
+1527/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7221 - loss: 0.7916
+1537/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7220 - loss: 0.7916
+1546/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7220 - loss: 0.7917
+1555/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7220 - loss: 0.7918
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.7220 - loss: 0.7918 - val_accuracy: 0.6752 - val_loss: 0.9325
+2024-10-13 18:36:35 Epoch 7/10
+2024-10-13 18:36:39 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 31s 20ms/step - accuracy: 0.8750 - loss: 0.3890
+  10/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7595 - loss: 0.6766  
+  19/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7500 - loss: 0.7169
+  28/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7475 - loss: 0.7212
+  38/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7466 - loss: 0.7205
+  48/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7458 - loss: 0.7188
+  58/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7462 - loss: 0.7170
+  67/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7470 - loss: 0.7151
+  76/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7475 - loss: 0.7142
+  85/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7476 - loss: 0.7143
+  94/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7476 - loss: 0.7142
+ 103/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7475 - loss: 0.7141
+ 113/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7473 - loss: 0.7142
+ 122/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7473 - loss: 0.7141
+ 131/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7472 - loss: 0.7141
+ 141/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7471 - loss: 0.7140
+ 151/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7470 - loss: 0.7143
+ 161/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7467 - loss: 0.7153
+ 171/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7463 - loss: 0.7163
+ 181/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7458 - loss: 0.7173
+ 191/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7454 - loss: 0.7183
+ 201/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7449 - loss: 0.7193
+ 211/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7445 - loss: 0.7200
+ 220/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7443 - loss: 0.7205
+ 230/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7440 - loss: 0.7210
+ 240/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7438 - loss: 0.7214
+ 250/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7436 - loss: 0.7218
+ 260/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7435 - loss: 0.7222
+ 269/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7434 - loss: 0.7224
+ 278/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7432 - loss: 0.7228
+ 288/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7430 - loss: 0.7231
+ 298/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7428 - loss: 0.7235
+ 307/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7426 - loss: 0.7239
+ 316/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7425 - loss: 0.7242
+ 326/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7423 - loss: 0.7246
+ 336/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7422 - loss: 0.7250
+ 345/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7421 - loss: 0.7253
+ 354/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7420 - loss: 0.7256
+ 364/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7418 - loss: 0.7260
+ 374/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7417 - loss: 0.7264
+ 384/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7416 - loss: 0.7268
+ 394/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7414 - loss: 0.7272
+ 404/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7413 - loss: 0.7276
+ 414/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7412 - loss: 0.7281
+ 424/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7410 - loss: 0.7285
+ 434/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7409 - loss: 0.7289
+ 444/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7407 - loss: 0.7293
+ 454/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7406 - loss: 0.7296
+ 462/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7405 - loss: 0.7299
+ 471/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7404 - loss: 0.7301
+ 481/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7403 - loss: 0.7304
+ 490/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7403 - loss: 0.7306
+ 499/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7402 - loss: 0.7308
+ 508/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7402 - loss: 0.7310
+ 517/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7401 - loss: 0.7312
+ 526/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7400 - loss: 0.7314
+ 535/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7400 - loss: 0.7315
+ 544/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7399 - loss: 0.7317
+ 553/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7399 - loss: 0.7319
+ 562/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7398 - loss: 0.7320
+ 571/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7398 - loss: 0.7323
+ 580/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7398 - loss: 0.7324
+ 590/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7397 - loss: 0.7326
+ 600/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7397 - loss: 0.7328
+ 610/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7397 - loss: 0.7330
+ 620/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7397 - loss: 0.7332
+ 630/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7396 - loss: 0.7333
+ 639/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7396 - loss: 0.7334
+ 649/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7396 - loss: 0.7335
+ 659/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7336
+ 669/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7337
+ 678/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7338
+ 687/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/st2024-10-14T01:36:39.042567533Z ep - accuracy: 0.7396 - loss: 0.7339
+ 697/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7340
+ 705/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7341
+ 714/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7396 - loss: 0.7342
+ 723/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7343
+ 731/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7344
+ 739/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7345
+ 749/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7346
+ 759/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7347
+ 769/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7395 - loss: 0.7348
+ 779/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7348
+ 789/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7349
+ 799/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7350
+ 809/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7351
+ 818/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7351
+ 827/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7352
+ 837/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7394 - loss: 0.7353
+ 846/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7394 - loss: 0.7354
+ 855/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7393 - loss: 0.7354
+ 865/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7393 - loss: 0.7356
+ 875/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7393 - loss: 0.7357
+ 884/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7393 - loss: 0.7358
+ 894/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7392 - loss: 0.7359
+ 904/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7392 - loss: 0.7360
+ 914/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7392 - loss: 0.7361
+ 924/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7392 - loss: 0.7362
+ 934/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7392 - loss: 0.7363
+ 943/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7363
+ 953/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7364
+ 963/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7365
+ 973/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7366
+ 983/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7367
+ 993/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7367
+1002/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7368
+1013/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7391 - loss: 0.7369
+1023/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7370
+1032/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7370
+1042/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7371
+1052/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7371
+1062/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7372
+1072/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7373
+1082/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7373
+1091/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7374
+1101/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7375
+1111/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7375
+1120/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7376
+1130/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7376
+1139/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7377
+1149/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7378
+1159/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7390 - loss: 0.7378
+1169/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7390 - loss: 0.7379
+1179/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7390 - loss: 0.7380
+1189/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7389 - loss: 0.7380
+1199/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7389 - loss: 0.7381
+1209/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7381
+1218/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7382
+1228/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7383
+1238/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7383
+1248/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7384
+1257/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7385
+1266/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7385
+1276/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7389 - loss: 0.7386
+1285/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7387
+1294/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7387
+1303/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7388
+1313/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7389
+1323/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7390
+1333/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7390
+1343/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7391
+1353/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7388 - loss: 0.7392
+1363/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7387 - loss: 0.7393
+1373/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7387 - loss: 0.7393
+1382/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7387 - loss: 0.2024-10-14T01:36:39.042567533Z 
+1391/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7387 - loss: 0.7395
+1400/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7387 - loss: 0.7396
+1409/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7387 - loss: 0.7396
+1418/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7387 - loss: 0.7397
+1427/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7398
+1436/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7398
+1446/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7399
+1455/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7400
+1465/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7400
+1475/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7386 - loss: 0.7401
+1485/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7402
+1495/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7403
+1504/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7403
+1513/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7404
+1523/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7405
+1533/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7406
+1543/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7385 - loss: 0.7406
+1552/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7384 - loss: 0.7407
+1562/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7384 - loss: 0.7407
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.7384 - loss: 0.7408 - val_accuracy: 0.6836 - val_loss: 0.9419
+2024-10-13 18:36:44 Epoch 8/10
+2024-10-13 18:36:48 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 29s 19ms/step - accuracy: 0.8125 - loss: 0.7066
+  11/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7801 - loss: 0.6673  
+  20/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7793 - loss: 0.6719
+  29/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 6ms/step - accuracy: 0.7747 - loss: 0.6804
+  39/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7703 - loss: 0.6879
+  49/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7693 - loss: 0.6894
+  59/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7696 - loss: 0.6867
+  69/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7696 - loss: 0.6848
+  79/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7692 - loss: 0.6834
+  89/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7682 - loss: 0.6841
+  99/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7674 - loss: 0.6846
+ 108/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7668 - loss: 0.6850
+ 117/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7663 - loss: 0.6853
+ 126/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7658 - loss: 0.6856
+ 135/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7656 - loss: 0.6854
+ 145/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7653 - loss: 0.6852
+ 155/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7652 - loss: 0.6851
+ 165/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7649 - loss: 0.6854
+ 174/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7648 - loss: 0.6857
+ 184/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7646 - loss: 0.6859
+ 194/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7644 - loss: 0.6861
+ 204/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7642 - loss: 0.6863
+ 214/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7640 - loss: 0.6864
+ 223/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7639 - loss: 0.6864
+ 232/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7638 - loss: 0.6863
+ 242/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7637 - loss: 0.6862
+ 251/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7636 - loss: 0.6861
+ 260/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7635 - loss: 0.6859
+ 269/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7634 - loss: 0.6858
+ 279/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7634 - loss: 0.6858
+ 288/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7634 - loss: 0.6858
+ 298/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7634 - loss: 0.6858
+ 308/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7633 - loss: 0.6858
+ 317/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7633 - loss: 0.6857
+ 326/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7633 - loss: 0.6856
+ 335/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7634 - loss: 0.6855
+ 345/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7634 - loss: 0.6854
+ 354/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7633 - loss: 0.6854
+ 363/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7633 - loss: 0.6853
+ 373/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7633 - loss: 0.6853
+ 383/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7632 - loss: 0.6854
+ 393/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7632 - loss: 0.6854
+ 402/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7631 - loss: 0.6855
+ 412/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7630 - loss: 0.6856
+ 422/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7629 - loss: 0.6857
+ 432/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.7628 - loss: 0.6859
+ 442/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7627 - loss: 0.6860
+ 452/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7627 - loss: 0.6861
+ 461/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7626 - loss: 0.6861
+ 471/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7625 - loss: 0.6862
+ 481/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7624 - loss: 0.6864
+ 491/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7623 - loss: 0.6865
+ 501/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7621 - loss: 0.6866
+ 511/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7620 - loss: 0.6868
+ 521/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7619 - loss: 0.6870
+ 531/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7618 - loss: 0.6871
+ 541/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7617 - loss: 0.6872
+ 551/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7616 - loss: 0.6873
+ 561/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7615 - loss: 0.6874
+ 571/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7614 - loss: 0.6875
+ 581/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7614 - loss: 0.6876
+ 591/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7613 - loss: 0.6877
+ 601/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7612 - loss: 0.6878
+ 611/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7611 - loss: 0.6879
+ 621/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7610 - loss: 0.6881
+ 631/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7609 - loss: 0.6882
+ 641/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7608 - loss: 0.6884
+ 650/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7607 - loss: 0.6885
+ 659/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7606 - loss: 0.6887
+ 668/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7605 - loss: 0.6888
+ 677/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7604 - loss: 0.6890
+ 686/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7603 - loss: 0.6891
+ 695/1563 ━━━━━━━━━━━━━━━━━━━━ 4s01:36:48.340483071Z 0m 5ms/step - accuracy: 0.7603 - loss: 0.6893
+ 704/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7602 - loss: 0.6894
+ 713/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7601 - loss: 0.6896
+ 723/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7599 - loss: 0.6898
+ 733/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7598 - loss: 0.6900
+ 743/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7597 - loss: 0.6902
+ 753/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7596 - loss: 0.6904
+ 763/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7596 - loss: 0.6905
+ 773/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7595 - loss: 0.6907
+ 783/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7594 - loss: 0.6909
+ 792/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7593 - loss: 0.6911
+ 802/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7592 - loss: 0.6913
+ 812/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7591 - loss: 0.6915
+ 821/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7590 - loss: 0.6916
+ 830/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7589 - loss: 0.6918
+ 839/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7589 - loss: 0.6920
+ 848/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7588 - loss: 0.6921
+ 857/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7587 - loss: 0.6923
+ 867/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7586 - loss: 0.6925
+ 876/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7585 - loss: 0.6926
+ 886/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7585 - loss: 0.6928
+ 895/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7584 - loss: 0.6930
+ 904/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7583 - loss: 0.6931
+ 912/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7582 - loss: 0.6932
+ 921/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7582 - loss: 0.6934
+ 931/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7581 - loss: 0.6936
+ 940/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7580 - loss: 0.6937
+ 950/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7580 - loss: 0.6939
+ 960/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7579 - loss: 0.6940
+ 970/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7578 - loss: 0.6942
+ 980/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7577 - loss: 0.6944
+ 990/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7577 - loss: 0.6945
+1000/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7576 - loss: 0.6947
+1010/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7575 - loss: 0.6949
+1020/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7575 - loss: 0.6950
+1030/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7574 - loss: 0.6952
+1040/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7573 - loss: 0.6953
+1050/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7573 - loss: 0.6955
+1060/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7572 - loss: 0.6956
+1070/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7572 - loss: 0.6958
+1080/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7571 - loss: 0.6959
+1090/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7571 - loss: 0.6961
+1100/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7570 - loss: 0.6962
+1110/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7570 - loss: 0.6964
+1120/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7569 - loss: 0.6965
+1130/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7569 - loss: 0.6966
+1140/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7568 - loss: 0.6968
+1149/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7568 - loss: 0.6969
+1158/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7567 - loss: 0.6970
+1168/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7567 - loss: 0.6972
+1177/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7566 - loss: 0.6973
+1187/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7566 - loss: 0.6974
+1196/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7565 - loss: 0.6975
+1206/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7565 - loss: 0.6977
+1216/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7564 - loss: 0.6978
+1226/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7564 - loss: 0.6979
+1236/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7563 - loss: 0.6980
+1246/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7563 - loss: 0.6982
+1255/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7563 - loss: 0.6983
+1264/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7562 - loss: 0.6984
+1274/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7562 - loss: 0.6985
+1283/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7562 - loss: 0.6986
+1292/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7561 - loss: 0.6986
+1301/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7561 - loss: 0.6987
+1311/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7561 - loss: 0.6988
+1320/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7560 - loss: 0.6989
+1330/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7560 - loss: 0.6990
+1340/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7560 - loss: 0.6991
+1349/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7559 - loss: 0.6992
+1358/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7559 - loss: 0.6993
+1368/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7559 - loss: 0.6994
+1377/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7558 - loss: 0.6995
+1386/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7558 - loss: 02024-10-14T01:36:48.340483071Z .6996
+1395/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7557 - loss: 0.6997
+1404/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7557 - loss: 0.6998
+1413/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7557 - loss: 0.6999
+1422/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7556 - loss: 0.7000
+1431/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7556 - loss: 0.7001
+1440/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7556 - loss: 0.7002
+1449/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7555 - loss: 0.7003
+1458/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7555 - loss: 0.7004
+1468/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7555 - loss: 0.7005
+1478/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7554 - loss: 0.7006
+1487/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7554 - loss: 0.7007
+1497/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7554 - loss: 0.7008
+1507/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7553 - loss: 0.7009
+1516/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7553 - loss: 0.7010
+1526/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7553 - loss: 0.7011
+1535/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7552 - loss: 0.7012
+1544/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7552 - loss: 0.7013
+1553/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7552 - loss: 0.7014
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7551 - loss: 0.7014
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.7551 - loss: 0.7015 - val_accuracy: 0.7051 - val_loss: 0.8886
+2024-10-13 18:36:53 Epoch 9/10
+2024-10-13 18:36:57 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 27s 18ms/step - accuracy: 0.7500 - loss: 0.5745
+  11/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7606 - loss: 0.6788  
+  20/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7658 - loss: 0.6695
+  30/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7671 - loss: 0.6672
+  40/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7706 - loss: 0.6617
+  50/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7742 - loss: 0.6538
+  60/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7760 - loss: 0.6493
+  69/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7774 - loss: 0.6454
+  79/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7785 - loss: 0.6419
+  89/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7791 - loss: 0.6399
+  99/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7793 - loss: 0.6396
+ 109/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7795 - loss: 0.6394
+ 119/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7796 - loss: 0.6399
+ 128/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7795 - loss: 0.6405
+ 137/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7794 - loss: 0.6409
+ 147/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7792 - loss: 0.6413
+ 156/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7791 - loss: 0.6418
+ 165/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7789 - loss: 0.6425
+ 174/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7787 - loss: 0.6430
+ 184/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7785 - loss: 0.6435
+ 193/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7783 - loss: 0.6438
+ 202/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7783 - loss: 0.6440
+ 211/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7782 - loss: 0.6441
+ 221/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7780 - loss: 0.6443
+ 230/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.7778 - loss: 0.6446
+ 240/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7776 - loss: 0.6450
+ 250/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7774 - loss: 0.6453
+ 260/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7772 - loss: 0.6457
+ 270/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7769 - loss: 0.6463
+ 280/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7767 - loss: 0.6468
+ 289/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7765 - loss: 0.6473
+ 299/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7762 - loss: 0.6478
+ 308/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7761 - loss: 0.6481
+ 318/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7759 - loss: 0.6484
+ 328/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7757 - loss: 0.6487
+ 338/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7756 - loss: 0.6490
+ 348/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7754 - loss: 0.6493
+ 358/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7752 - loss: 0.6496
+ 368/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7750 - loss: 0.6500
+ 378/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7748 - loss: 0.6503
+ 388/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7747 - loss: 0.6506
+ 398/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7745 - loss: 0.6509
+ 408/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7744 - loss: 0.6511
+ 417/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7743 - loss: 0.6513
+ 426/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7742 - loss: 0.6515
+ 435/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7741 - loss: 0.6516
+ 445/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7740 - loss: 0.6518
+ 455/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7738 - loss: 0.6520
+ 464/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7737 - loss: 0.6521
+ 474/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7736 - loss: 0.6523
+ 484/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7736 - loss: 0.6524
+ 494/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7735 - loss: 0.6525
+ 504/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7734 - loss: 0.6526
+ 514/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7733 - loss: 0.6527
+ 524/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7733 - loss: 0.6528
+ 534/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7732 - loss: 0.6529
+ 544/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7731 - loss: 0.6531
+ 554/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7730 - loss: 0.6533
+ 564/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7729 - loss: 0.6534
+ 574/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7728 - loss: 0.6536
+ 584/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7727 - loss: 0.6537
+ 594/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7726 - loss: 0.6538
+ 604/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7726 - loss: 0.6540
+ 614/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7725 - loss: 0.6540
+ 624/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7724 - loss: 0.6542
+ 626/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7724 - loss: 0.6542
+ 635/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7724 - loss: 0.6543
+ 645/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7723 - loss: 0.6544
+ 655/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.7722 - loss: 0.6545
+ 665/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7721 - loss: 0.6546
+ 675/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7721 - loss: 0.6547
+ 685/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7720 - loss: 0.6549
+ 695/1563 ━━━━━━━━━━━━━━━━━━━━ 4s01:36:57.679324106Z 0m 6ms/step - accuracy: 0.7720 - loss: 0.6550
+ 705/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7719 - loss: 0.6552
+ 715/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7718 - loss: 0.6553
+ 725/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7718 - loss: 0.6554
+ 735/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7717 - loss: 0.6556
+ 746/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7716 - loss: 0.6557
+ 756/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7716 - loss: 0.6558
+ 766/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7715 - loss: 0.6559
+ 775/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7715 - loss: 0.6560
+ 784/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7714 - loss: 0.6561
+ 793/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7714 - loss: 0.6562
+ 802/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7714 - loss: 0.6563
+ 811/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7713 - loss: 0.6564
+ 819/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7713 - loss: 0.6565
+ 828/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7713 - loss: 0.6566
+ 837/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.7712 - loss: 0.6566
+ 845/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7712 - loss: 0.6567
+ 853/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7712 - loss: 0.6568
+ 862/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7711 - loss: 0.6569
+ 872/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7711 - loss: 0.6570
+ 882/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7710 - loss: 0.6571
+ 892/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7710 - loss: 0.6572
+ 901/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7709 - loss: 0.6573
+ 911/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7709 - loss: 0.6574
+ 921/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7708 - loss: 0.6575
+ 930/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7708 - loss: 0.6576
+ 939/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7707 - loss: 0.6577
+ 948/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7707 - loss: 0.6578
+ 957/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7707 - loss: 0.6579
+ 966/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7706 - loss: 0.6580
+ 975/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7706 - loss: 0.6580
+ 985/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7705 - loss: 0.6581
+ 994/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7705 - loss: 0.6582
+1003/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7704 - loss: 0.6583
+1012/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7704 - loss: 0.6584
+1021/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.7703 - loss: 0.6585
+1030/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7703 - loss: 0.6586
+1039/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7702 - loss: 0.6587
+1048/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7702 - loss: 0.6588
+1057/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7701 - loss: 0.6589
+1066/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7701 - loss: 0.6590
+1075/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7700 - loss: 0.6591
+1084/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7700 - loss: 0.6592
+1093/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7699 - loss: 0.6593
+1102/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7699 - loss: 0.6594
+1112/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7699 - loss: 0.6594
+1121/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7698 - loss: 0.6595
+1130/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7698 - loss: 0.6596
+1139/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7697 - loss: 0.6597
+1148/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7697 - loss: 0.6598
+1157/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7696 - loss: 0.6598
+1166/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7696 - loss: 0.6599
+1175/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7696 - loss: 0.6600
+1184/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7695 - loss: 0.6601
+1193/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7695 - loss: 0.6602
+1203/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.7694 - loss: 0.6602
+1213/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7694 - loss: 0.6603
+1222/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7694 - loss: 0.6604
+1231/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7693 - loss: 0.6605
+1241/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7693 - loss: 0.6605
+1250/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7692 - loss: 0.6606
+1260/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7692 - loss: 0.6607
+1270/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7692 - loss: 0.6608
+1280/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7691 - loss: 0.6608
+1290/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7691 - loss: 0.6609
+1300/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7691 - loss: 0.6610
+1310/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7690 - loss: 0.6610
+1319/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7690 - loss: 0.6611
+1328/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7690 - loss: 0.6611
+1337/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7689 - loss: 0.6612
+1346/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7689 - loss: 0.6612
+1355/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7689 - loss: 0.6613
+1364/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7689 - loss: 02024-10-14T01:36:57.679324106Z .6613
+1373/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7688 - loss: 0.6614
+1382/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.7688 - loss: 0.6614
+1391/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7688 - loss: 0.6615
+1400/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7687 - loss: 0.6615
+1409/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7687 - loss: 0.6616
+1418/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7687 - loss: 0.6617
+1427/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7687 - loss: 0.6617
+1437/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7686 - loss: 0.6618
+1447/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7686 - loss: 0.6619
+1457/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7686 - loss: 0.6619
+1467/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7685 - loss: 0.6620
+1477/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7685 - loss: 0.6621
+1487/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7685 - loss: 0.6622
+1496/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7684 - loss: 0.6623
+1506/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7684 - loss: 0.6623
+1516/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7684 - loss: 0.6624
+1525/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7683 - loss: 0.6625
+1534/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7683 - loss: 0.6626
+1544/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7683 - loss: 0.6626
+1553/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7682 - loss: 0.6627
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7682 - loss: 0.6628
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.7682 - loss: 0.6628 - val_accuracy: 0.7052 - val_loss: 0.8745
+2024-10-13 18:37:03 Epoch 10/10
+2024-10-13 18:37:07 
+   1/1563 ━━━━━━━━━━━━━━━━━━━━ 26s 17ms/step - accuracy: 0.7500 - loss: 0.5979
+  11/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7815 - loss: 0.6091  
+  21/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7877 - loss: 0.6070
+  31/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7900 - loss: 0.6010
+  41/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7917 - loss: 0.5976
+  51/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7919 - loss: 0.5966
+  61/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7916 - loss: 0.5960
+  71/1563 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.7904 - loss: 0.5966
+  81/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7898 - loss: 0.5972
+  91/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7894 - loss: 0.5978
+ 101/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7895 - loss: 0.5970
+ 111/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7899 - loss: 0.5958
+ 121/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7901 - loss: 0.5947
+ 130/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7903 - loss: 0.5939
+ 140/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7905 - loss: 0.5932
+ 150/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7907 - loss: 0.5925
+ 160/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7909 - loss: 0.5918
+ 170/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7909 - loss: 0.5916
+ 180/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7909 - loss: 0.5915
+ 190/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7909 - loss: 0.5912
+ 200/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7910 - loss: 0.5911
+ 210/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7911 - loss: 0.5910
+ 220/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7911 - loss: 0.5910
+ 229/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7912 - loss: 0.5911
+ 238/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7911 - loss: 0.5912
+ 248/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7911 - loss: 0.5915
+ 258/1563 ━━━━━━━━━━━━━━━━━━━━ 7s 5ms/step - accuracy: 0.7911 - loss: 0.5918
+ 268/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7910 - loss: 0.5922
+ 277/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7910 - loss: 0.5926
+ 287/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7909 - loss: 0.5930
+ 297/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7909 - loss: 0.5934
+ 307/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7908 - loss: 0.5938
+ 317/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7908 - loss: 0.5941
+ 327/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7908 - loss: 0.5944
+ 337/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7908 - loss: 0.5946
+ 346/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7908 - loss: 0.5948
+ 356/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7907 - loss: 0.5950
+ 366/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7907 - loss: 0.5952
+ 376/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7907 - loss: 0.5955
+ 386/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7906 - loss: 0.5957
+ 395/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7906 - loss: 0.5960
+ 405/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7905 - loss: 0.5963
+ 415/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7905 - loss: 0.5965
+ 425/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7905 - loss: 0.5968
+ 435/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7905 - loss: 0.5970
+ 445/1563 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7904 - loss: 0.5972
+ 455/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7904 - loss: 0.5975
+ 465/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7904 - loss: 0.5977
+ 475/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7903 - loss: 0.5980
+ 485/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7903 - loss: 0.5982
+ 495/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7902 - loss: 0.5984
+ 505/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7901 - loss: 0.5987
+ 515/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7901 - loss: 0.5989
+ 525/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7900 - loss: 0.5992
+ 534/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7899 - loss: 0.5995
+ 544/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7898 - loss: 0.5997
+ 553/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7897 - loss: 0.6000
+ 562/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7897 - loss: 0.6002
+ 571/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7896 - loss: 0.6004
+ 581/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7895 - loss: 0.6007
+ 590/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7894 - loss: 0.6009
+ 599/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7894 - loss: 0.6012
+ 609/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7893 - loss: 0.6014
+ 618/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7892 - loss: 0.6017
+ 627/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7891 - loss: 0.6019
+ 636/1563 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.7891 - loss: 0.6021
+ 646/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7890 - loss: 0.6023
+ 655/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7890 - loss: 0.6025
+ 664/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7889 - loss: 0.6026
+ 673/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7889 - loss: 0.6028
+ 682/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7888 - loss: 0.6030
+ 692/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7888 - loss: 0.6032
+ 701/1563 ━━━━━━━━━━━━━━━━━━━━ 4s01:37:07.102159403Z 0m 5ms/step - accuracy: 0.7887 - loss: 0.6034
+ 710/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7887 - loss: 0.6036
+ 719/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7886 - loss: 0.6038
+ 728/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7886 - loss: 0.6039
+ 737/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7885 - loss: 0.6041
+ 747/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7885 - loss: 0.6043
+ 756/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7884 - loss: 0.6045
+ 765/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7884 - loss: 0.6047
+ 775/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7883 - loss: 0.6049
+ 784/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7882 - loss: 0.6051
+ 794/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7882 - loss: 0.6053
+ 804/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7881 - loss: 0.6056
+ 813/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7881 - loss: 0.6058
+ 822/1563 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7880 - loss: 0.6060
+ 832/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7879 - loss: 0.6062
+ 841/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7879 - loss: 0.6063
+ 850/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7878 - loss: 0.6065
+ 859/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7878 - loss: 0.6067
+ 869/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7877 - loss: 0.6068
+ 879/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7876 - loss: 0.6070
+ 888/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7876 - loss: 0.6072
+ 898/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7875 - loss: 0.6074
+ 908/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7874 - loss: 0.6076
+ 917/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7874 - loss: 0.6078
+ 927/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7873 - loss: 0.6080
+ 936/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7872 - loss: 0.6082
+ 945/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7872 - loss: 0.6084
+ 955/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7871 - loss: 0.6086
+ 965/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7870 - loss: 0.6088
+ 975/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7870 - loss: 0.6090
+ 984/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7869 - loss: 0.6091
+ 994/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7868 - loss: 0.6093
+1004/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7868 - loss: 0.6094
+1014/1563 ━━━━━━━━━━━━━━━━━━━━ 3s 5ms/step - accuracy: 0.7867 - loss: 0.6096
+1024/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7867 - loss: 0.6098
+1033/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7866 - loss: 0.6099
+1043/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7865 - loss: 0.6100
+1053/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7865 - loss: 0.6102
+1063/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7864 - loss: 0.6103
+1072/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7864 - loss: 0.6105
+1081/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7863 - loss: 0.6106
+1091/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7862 - loss: 0.6108
+1100/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7862 - loss: 0.6110
+1110/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7861 - loss: 0.6111
+1120/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7860 - loss: 0.6113
+1130/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7859 - loss: 0.6115
+1139/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7859 - loss: 0.6116
+1149/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7858 - loss: 0.6118
+1159/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7857 - loss: 0.6120
+1169/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7857 - loss: 0.6121
+1179/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7856 - loss: 0.6123
+1188/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7855 - loss: 0.6124
+1197/1563 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.7855 - loss: 0.6126
+1206/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7854 - loss: 0.6127
+1215/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7854 - loss: 0.6128
+1225/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7853 - loss: 0.6130
+1234/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7853 - loss: 0.6131
+1243/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7852 - loss: 0.6132
+1253/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7852 - loss: 0.6133
+1263/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7851 - loss: 0.6135
+1272/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7851 - loss: 0.6136
+1281/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7850 - loss: 0.6137
+1291/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7850 - loss: 0.6139
+1300/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7849 - loss: 0.6140
+1309/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7849 - loss: 0.6141
+1318/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7848 - loss: 0.6143
+1327/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7848 - loss: 0.6144
+1337/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7847 - loss: 0.6145
+1346/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7847 - loss: 0.6147
+1356/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7846 - loss: 0.6148
+1365/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7846 - loss: 0.6150
+1375/1563 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.7845 - loss: 0.6151
+1385/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7845 - loss: 02024-10-14T01:37:07.102159403Z .6153
+1395/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7844 - loss: 0.6154
+1405/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7843 - loss: 0.6156
+1414/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7843 - loss: 0.6157
+1424/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7842 - loss: 0.6158
+1434/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7842 - loss: 0.6160
+1444/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7841 - loss: 0.6161
+1453/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7841 - loss: 0.6163
+1463/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7840 - loss: 0.6164
+1472/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7840 - loss: 0.6165
+1482/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7839 - loss: 0.6167
+1492/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7839 - loss: 0.6168
+1502/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7838 - loss: 0.6170
+1511/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7838 - loss: 0.6171
+1520/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7837 - loss: 0.6172
+1529/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7837 - loss: 0.6174
+1538/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7836 - loss: 0.6175
+1546/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7836 - loss: 0.6176
+1555/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.7835 - loss: 0.6177
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.7835 - loss: 0.6179 - val_accuracy: 0.7114 - val_loss: 0.8518
+2024-10-13 18:37:13 313/313 - 1s - 2ms/step - accuracy: 0.7114 - loss: 0.8518
+2024-10-13 18:37:13 Test accuracy: 0.7113999724388123
